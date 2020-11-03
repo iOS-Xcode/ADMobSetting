@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -26,6 +26,8 @@
 		B9480E78255209D700AE5271 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B9480E7B255209D700AE5271 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B9480E7D255209D700AE5271 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9480E94255225E700AE5271 /* screenshot1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot1.png; sourceTree = "<group>"; };
+		B9480E95255225E700AE5271 /* screenshot2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot2.png; sourceTree = "<group>"; };
 		C3045B6B26BA9C11609E61CF /* Pods_ADMobSetting.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ADMobSetting.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0347BD0F79B9EBE68B876D1 /* Pods-ADMobSetting.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ADMobSetting.debug.xcconfig"; path = "Target Support Files/Pods-ADMobSetting/Pods-ADMobSetting.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -73,6 +75,8 @@
 			children = (
 				B9480E6F255209D600AE5271 /* AppDelegate.swift */,
 				B9480E71255209D600AE5271 /* SceneDelegate.swift */,
+				B9480E94255225E700AE5271 /* screenshot1.png */,
+				B9480E95255225E700AE5271 /* screenshot2.png */,
 				B9480E73255209D600AE5271 /* ViewController.swift */,
 				B9480E75255209D600AE5271 /* Main.storyboard */,
 				B9480E78255209D700AE5271 /* Assets.xcassets */,
@@ -88,7 +92,6 @@
 				F0347BD0F79B9EBE68B876D1 /* Pods-ADMobSetting.debug.xcconfig */,
 				101D5A39504E2506DA131E4B /* Pods-ADMobSetting.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
