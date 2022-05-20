@@ -20,7 +20,7 @@ class ViewController: UIViewController, GADBannerViewDelegate {
         bannerView.adUnitID = "ca-app-pub-3940256099942544/2934735716"
         bannerView.rootViewController = self
         
-        //Connect to Delegate
+        //GADBannerViewDelegate, Connect to Delegate
         bannerView.delegate = self
         
         //Load an ad
@@ -28,9 +28,11 @@ class ViewController: UIViewController, GADBannerViewDelegate {
     }
 
     func addBannerViewToView(_ bannerView: GADBannerView) {
+        //오토레이아웃을 뷰를 설정
       bannerView.translatesAutoresizingMaskIntoConstraints = false
       view.addSubview(bannerView)
         //bottomLayoutGuide, self.view.safeAreaLayoutGuide.bottomAnchor
+        //앵커를 설정하여 오토레이 아웃 설정
       view.addConstraints(
         [NSLayoutConstraint(item: bannerView,
                             attribute: .bottom,
